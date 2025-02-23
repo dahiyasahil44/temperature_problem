@@ -10,5 +10,5 @@ for(i=0;i<arr.length;i++){
     if(i==3){
         arr[i] +=2;
     }
-    console.log(arr[i]);
+    console.log("Temperature at Day "+(i+1)+" is "+arr[i]);
 }
